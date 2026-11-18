@@ -1,4 +1,4 @@
-# mearef-dev
+# Mearef
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mearef-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mearef.dev/
+Mearef provides Middle Eastern government reference data, offering every value cited to its official source, complete with effective dates and last-verified timestamps. The platform serves a public API delivering structured data on countries, regions, and governmental entities, supporting both free and paid usage tiers. Documentation, pricing, and status information are openly available, and the service emphasizes data accuracy and transparency.
+
+**Areas:** Company · Data · Government · MiddleEast · API
+
+## Mearef on APIs.io
+
+Everything profiled for Mearef is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mearef-dev/](https://apis.io/providers/mearef-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Mearef Alerts API](https://apis.io/apis/mearef-dev/mearef-dev-alerts-api/) — Retention. HMAC-signed webhooks, the free /v1/changes feed (past moves and freshness), and the free /v1/calendar feed (derived reverify window;…
+- [Mearef Answers API](https://apis.io/apis/mearef-dev/mearef-dev-answers-api/) — Computed answers over the reference data - VAT breakdowns, wage checks, working days, income tax, statutory interest (Actual/365 simple on the cited…
+- [Mearef Certified API](https://apis.io/apis/mearef-dev/mearef-dev-certified-api/) — Series certified extracts: one value together with its citation, the fingerprint of the archived source document, and how it was verified, at GET…
+- [Mearef Discovery API](https://apis.io/apis/mearef-dev/mearef-dev-discovery-api/) — Machine-readable descriptions of what is served and what it costs.
+- [Mearef Free API](https://apis.io/apis/mearef-dev/mearef-dev-free-api/) — No payment and no key. Public holidays for every country, the catalog, the change/freshness feed, the re-verification calendar (GET /v1/calendar), the…
+- [Mearef Jobs API](https://apis.io/apis/mearef-dev/mearef-dev-jobs-api/) — The Jobs API from Mearef — 9 operation(s) for jobs.
+- [Mearef Keys API](https://apis.io/apis/mearef-dev/mearef-dev-keys-api/) — The Keys API from Mearef — 4 operation(s) for keys.
+- [Mearef Reference data API](https://apis.io/apis/mearef-dev/mearef-dev-reference-data-api/) — Current and historical values of a government reference series, each cited to the official instrument that set it.
+- [Mearef x402 sellers API](https://apis.io/apis/mearef-dev/mearef-dev-x402-sellers-api/) — Endpoints aimed at other x402 sellers, notably cross-border VAT determination for digital sales.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Mearef Agentic Access](https://apis.io/agentic-access/mearef-dev/mearef-dev-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [AnswerReceipt](https://apis.io/schemas/mearef-dev/mearef-dev-answer-receipt/)
+- [CertifiedExtract](https://apis.io/schemas/mearef-dev/mearef-dev-certified-extract/)
+- [SeriesValue](https://apis.io/schemas/mearef-dev/mearef-dev-series-value/)
+- [SettlementDateAnswer](https://apis.io/schemas/mearef-dev/mearef-dev-settlement-date-answer/)
+- [StatutoryInterestAnswer](https://apis.io/schemas/mearef-dev/mearef-dev-statutory-interest-answer/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mearef Dev Context](https://apis.io/jsonld/mearef-dev/mearef-dev-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Mearef Openapi Overlay](https://apis.io/overlays/mearef-dev/mearef-dev-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Mearef API Rules](https://apis.io/rules/mearef-dev/mearef-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mearef Authentication](https://apis.io/security/mearef-dev/mearef-dev-authentication/)
+- [Mearef Domain Security](https://apis.io/security/mearef-dev/mearef-dev-domain-security/)
+- [Mearef Vulnerability Disclosure](https://apis.io/security/mearef-dev/mearef-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Mearef Plans Pricing](https://apis.io/plans/mearef-dev/mearef-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mearef.dev/)
+- [Documentation](https://mearef.dev/docs)
+- [Pricing](https://mearef.dev/pricing)
+- [Security](https://mearef.dev/.well-known/security.txt)
+- [Terms of service](https://mearef.dev/terms)
+- [Privacy policy](https://mearef.dev/privacy)
+- [Status](https://mearef.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 53.2** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 61.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 48.5 |
+
+**Agent readiness 33.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mearef-dev/](https://apis.io/providers/mearef-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mearef: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mearef-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
